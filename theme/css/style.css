@@ -640,7 +640,7 @@ header .navbar {
   border: 0px;
 }
 header .navbar-brand {
-  padding-top: 5px;
+  padding-top: 0px;
 }
 header .navbar-default {
   background: none;
@@ -660,14 +660,17 @@ header .navbar-default .navbar-nav li a:hover {
 
 .navigation {
   background: #fff;
-  padding: 20px 0;
+  padding: 0px 0;
 }
 .navigation .navbar {
   margin-bottom: 0px;
   border: 0px;
 }
 .navigation .navbar-brand {
-  padding-top: 5px;
+  padding-top: 0px;
+  width: 100%;
+  height: auto;
+  align-items: left;
 }
 .navigation .navbar-toggler {
   font-size: 36px;
@@ -680,7 +683,7 @@ header .navbar-default .navbar-nav li a:hover {
   border: 0px;
 }
 .navigation .navbar .navbar-nav {
-  padding-top: 10px;
+  padding-top: 0px;
 }
 @media (max-width: 992px) {
   .navigation .navbar .navbar-nav {
@@ -810,7 +813,7 @@ ul.dropdown-menu li {
     margin-bottom: 10px;
   }
   .dropleft .dropdown-menu,
-.dropright .dropdown-menu {
+  .dropright .dropdown-menu {
     margin-top: -10px;
   }
   .dropdown:hover > .dropdown-menu {
@@ -1114,7 +1117,6 @@ ul.dropdown-menu li {
 }
 
 .portfolio-single-slider {
-  cursor: -webkit-grab;
   cursor: grab;
 }
 
